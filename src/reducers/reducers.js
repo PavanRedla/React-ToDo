@@ -19,6 +19,7 @@ function todosReducer(state = initialState, action) {
         {
           id: action.id,
           text: action.text,
+          completed: false,
         },
       ];
     case "DELETE_TODO":

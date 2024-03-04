@@ -7,7 +7,7 @@ export default function ToDoList() {
   const dispatch = useDispatch();
 
   const allTodos = useSelector((state) => {
-    console.log(state.todosReducer);
+    // console.log(state.todosReducer);
     return state.todosReducer; // this indicates that data coming from todosReducer will be collected by allTodods.
   });
 
