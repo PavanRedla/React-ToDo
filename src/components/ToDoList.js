@@ -8,7 +8,7 @@ export default function ToDoList() {
 
   const allTodos = useSelector((state) => {
     // console.log(state.todosReducer);
-    return state.todosReducer; // this indicates that data coming from todosReducer will be collected by allTodods.
+    return state.todosReducer; // this indicates that data coming from todosReducer will be collected by allTodods. so this ToDolist is a consumer.
   });
 
   const deleteMyTodo = (id) => {
