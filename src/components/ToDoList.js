@@ -2,10 +2,10 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteTodo } from "../actions/actions";
 
-// to read the data from redux and display it in component we use "useSelector"
 export default function ToDoList() {
   const dispatch = useDispatch();
 
+  // to read the data from redux and display it in component we use "useSelector"
   const allTodos = useSelector((state) => {
     // console.log(state.todosReducer);
     return state.todosReducer; // this indicates that data coming from todosReducer will be collected by allTodods. so this ToDolist is a consumer.

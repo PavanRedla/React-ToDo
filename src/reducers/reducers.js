@@ -33,7 +33,7 @@ function todosReducer(state = initialState, action) {
   }
 }
 
-// we can add ten's of reducers in one redux application. for example we have created one more reducer called reducer2 and it's just returnin state.
+// we can add ten's of reducers in one redux application. for example we have created one more reducer called reducer2 and it's just returning state.
 
 function reducer2(state = [], action) {
   return state;
